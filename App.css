@@ -1,0 +1,91 @@
+/* .profile {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile h1 {
+  margin-bottom: 5px;
+}
+
+.profile h2 {
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.profile h3 {
+  margin-bottom: 5px;
+}
+
+.profile ul {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.profile ul li {
+  list-style-type: none;
+}
+
+.profile a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.profile a:hover {
+  text-decoration: underline;
+} */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.user-details {
+  text-align: center;
+}
+
+.user-details img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.bio {
+  font-style: italic;
+}
+
+.location {
+  font-weight: bold;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.project-card {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+}
+
+.project-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.project-card a:hover {
+  background-color: #0056b3;
+}
